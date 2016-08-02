@@ -1,9 +1,9 @@
 0x0 Introduction
 ================
 
-`root@CTF:~/CTF/ais3_2016/remote/3# file remote3 
+	root@CTF:~/CTF/ais3_2016/remote/3# file remote3 
 
-remote3: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=da51300f57416d92b1be06f8592334107c41b531, not stripped`
+	remote3: ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux.so.2, for GNU/Linux 2.6.24, BuildID[sha1]=da51300f57416d92b1be06f8592334107c41b531, not stripped
 
 It have some teatures
 
