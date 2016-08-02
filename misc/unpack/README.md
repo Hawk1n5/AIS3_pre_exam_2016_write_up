@@ -1,17 +1,16 @@
-#unpack
+0x0 Intorduction
+================
 
 In this challenge
 
-`
-root@CTF:~/CTF/ais3_2016/misc/unpack# file unpack_me.7z 
+`root@CTF:~/CTF/ais3_2016/misc/unpack# file unpack_me.7z 
 
 unpack_me.7z: ASCII text
 `
 
 This file header like:
 
-`
-0000000: 375a c2bc c2af 271c 0003 c297 c3ba 34c3  7Z....'.......4.
+`0000000: 375a c2bc c2af 271c 0003 c297 c3ba 34c3  7Z....'.......4.
 
 0000010: 8dc2 bf75 0400 0000 0000 2400 0000 0000  ...u......$.....
 
@@ -26,8 +25,7 @@ The current 7z format header in second byte is 'z'.
 
 so that fix this file and file will like.
 
-`
-root@CTF:~/CTF/ais3_2016/misc/unpack# file unpack_me.7z 
+`root@CTF:~/CTF/ais3_2016/misc/unpack# file unpack_me.7z 
 
 unpack_me.7z: 7-zip archive data, version 0.3
 `
