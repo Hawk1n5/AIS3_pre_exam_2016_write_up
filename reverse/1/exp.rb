@@ -7,8 +7,6 @@ enc = [0xca, 0x70, 0x93, 0xc8, 0x06, 0x7f, 0x23, 0xa1, 0xe0,0x48,0x2a,0x39,0xae,
 	key1 = (i^9)&3
 	key2 = 8-key1
 	0xff.times do |c|
-#		puts "#{c.to_s(16)},#{(((((c^i) << key1)|((c^i) >> key2))+8)).to_s(16)},#{enc[i].to_s(16)}" if i>23
 		print c.chr if ((((c^i) << key1)|((c^i) >> key2))+8)%0x100 == enc[i]
 	end
-#	STDIN.gets
 end
